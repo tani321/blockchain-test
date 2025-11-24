@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { connectWallet, registerProject } from '../utils/blockchain';
+import { connectWallet, registerProject } from '../app/utils/blockchain';
 
 export default function RegisterProject() {
   const [name, setName] = useState('');
