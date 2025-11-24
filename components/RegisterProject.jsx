@@ -115,7 +115,8 @@ export default function RegisterProject() {
         <div className="mt-4 p-4 bg-green-100 rounded">
           <p className="text-sm font-medium">Transaction successful!</p>
           
-            href={`https://sepolia.etherscan.io/tx/${txHash}`}
+           <a href={`https://sepolia.etherscan.io/tx/${txHash}`}
+
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline text-sm break-all">
