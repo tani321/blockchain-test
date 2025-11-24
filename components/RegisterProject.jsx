@@ -118,8 +118,7 @@ export default function RegisterProject() {
             href={`https://sepolia.etherscan.io/tx/${txHash}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 underline text-sm break-all"
-          >
+            className="text-blue-600 underline text-sm break-all">
             View on Etherscan
           </a>
         </div>
